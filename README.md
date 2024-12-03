@@ -24,9 +24,17 @@ animal_classifier/
 │   │       └── ...
 │   ├── validation/
 │       ├── cats/
-│       └── cows/
+│       │   ├── cat1.jpg
+|       |   |__ ...
+│       |── cows/
+|       |   ├── cow1.jpg
+|       |   |__ ...
 │       ├── dogs/
+│       │   ├── dog1.jpg
+|       |   |__ ...
 │       └── unknown/
+│           ├── unknown1.jpg
+|           |__ ...
 
 │
 ├── models/
