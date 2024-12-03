@@ -64,4 +64,4 @@ history = model.fit(
 
 # Save the model
 os.makedirs('../models', exist_ok=True)
-model.save('../models/cat_dog_model.keras')
+model.save('../models/animal_model.keras')

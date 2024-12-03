@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from sklearn.metrics import classification_report, roc_auc_score, precision_recall_curve, auc
+from sklearn.metrics import classification_report, roc_auc_score, precision_recall_curve, auc # type: ignore
 from tensorflow.keras.preprocessing.image import ImageDataGenerator  # type: ignore
 import os
 
@@ -11,7 +11,7 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 def evaluate_model():
     validation_dir = "../data/validation"
     # Load the model
-    model = tf.keras.models.load_model('../models/cat_dog_model.keras')
+    model = tf.keras.models.load_model('../models/animal_model.keras')
     print("Model loaded successfully.")
 
 
