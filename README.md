@@ -35,7 +35,6 @@ animal_classifier/
 │       └── unknown/
 │           ├── unknown1.jpg
 |           |__ ...
-
 │
 ├── models/
 │   └── animal_model.keras // this will be generated after you run train.py
