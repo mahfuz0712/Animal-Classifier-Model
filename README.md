@@ -1,8 +1,8 @@
-# Animal Classifier 
+# Animal Classifier Model
 =====================Project Directory Struncture=====================
 #### Step-1: Organize your project directory like this:
 ```
-animal_classifier/
+/
 │
 ├── data/
 │   ├── train/
