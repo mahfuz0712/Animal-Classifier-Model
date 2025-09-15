@@ -3,7 +3,6 @@
 #### Step-1: Organize your project directory like this:
 ```
 src/
-│
 ├── data/
 │   ├── train/
 │   │   ├── cats/
