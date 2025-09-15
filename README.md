@@ -2,7 +2,7 @@
 =====================Project Directory Struncture=====================
 #### Step-1: Organize your project directory like this:
 ```
-/
+src/
 │
 ├── data/
 │   ├── train/
