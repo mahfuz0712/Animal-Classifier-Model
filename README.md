@@ -2,6 +2,7 @@
 =====================Project Directory Struncture=====================
 #### Step-1: Organize your project directory like this:
 ```
+.venv
 src/
 ├── data/
 │   ├── train/
@@ -42,10 +43,9 @@ src/
 │   ├── train.py
 │   ├── predict.py
 │   └── evaluate.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+.gitignore
+README.md
+requirements.txt
 ```
 #### Step-2: Set Up Your Virtual Environment
 ##### 1.  Create a virtual environment (optional but recommended):
